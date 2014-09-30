@@ -28,4 +28,5 @@
       )
     )
   ;
+   $footer_content = "Arvestustöö: Anneli Loo - 30.09.2014";
 ?>
