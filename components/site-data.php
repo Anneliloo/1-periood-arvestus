@@ -29,4 +29,7 @@
     )
   ;
    $footer_content = "Arvestustöö: Anneli Loo - 30.09.2014";
+   function team_members($name = "Nimetu", $email = "Puudub", $huviala = "Puuduvad"){
+    return '<div class="team-member"><h2 class="member-name">'.$name.'</h2><div class="member-info"><span>E-mail: </span><a href="mailto:'.$email.'">'.$email.'</a></div><div class="member-info"><span>Huvialad: </span>'.$huviala.'</div></div>';
+  };
 ?>
