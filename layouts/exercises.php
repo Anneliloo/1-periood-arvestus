@@ -22,10 +22,17 @@
 			?>
 
         <h2>Juhuslik pilt</h2>
-        <!--  Sisesta siia kood -->
+			<?php
+				echo '<img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.rand(1, 12).'.jpg">';
+			?>        
 
         <h2>Kõikide piltide väljastamine</h2>
-        <!--  Sisesta siia kood -->
+			<?php
+				for ($i=1; $i < 13; $i++) { 
+					echo '<img id="img_sz" src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.$i.'.jpg">';
+				};
+			?>
+
       </section>
     </main>
 
