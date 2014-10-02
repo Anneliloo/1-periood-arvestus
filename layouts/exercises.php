@@ -32,7 +32,6 @@
 					echo '<img id="img_sz" src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.$i.'.jpg">';
 				};
 			?>
-
       </section>
     </main>
 
